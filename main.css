@@ -10,9 +10,15 @@ body {
     width: 1300px;
 }
 
+.card-img {
+    width: 400px;
+    height: 300px;
+}
+
 footer {
     color: white;
     font-size: 80%;
     border-top: 1px solid #a192c5;
     text-align: center;
 }
+
