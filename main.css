@@ -1,24 +1,48 @@
-/* 80's vapor/chill wave inspired linear-gradient */
 body {
     background-image: linear-gradient(0.15turn, #514b81, #ffacbb 90%);
-    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
 }
 
-/* Trying to rein in bounderies. */
-.container {
-    margin: 0 auto;
-    width: 1300px;
+.cards {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card {
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border: 1px transparent black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    padding: 5px 30px 5px 30px;
+    line-height: 1.5em;
 }
 
 .card-img {
     width: 400px;
     height: 300px;
+    border-radius: 10px 10px 0 0;
 }
 
 footer {
     color: white;
     font-size: 80%;
-    border-top: 1px solid #a192c5;
     text-align: center;
 }
-
