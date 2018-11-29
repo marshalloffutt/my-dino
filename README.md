@@ -1,6 +1,6 @@
 # My Dino
 
-This is a tribute site that pays homage to my favorite dinosaur, and also introduces myself to the coding world.
+This is a tribute site that pays homage to my favorite dinosaur, and also introduces myself to the coding world. It uses basic HTML, and CSS.
 
 ## Screenshot
 ![main screen shot](./screenshots/dino.png)
